@@ -608,12 +608,12 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 200px;
+	height: 500px;
 }
 
 .clients-image {
   display: block;
-  max-width: 250px;
+  max-width: 550px;
   margin: auto;
   transition: all ease 0.2s;
 }
