@@ -355,80 +355,51 @@ https://templatemo.com/tm-578-first-portfolio
 
                             
 
-                            <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                                <form action="https://formspree.io/f/mkovznby" method="POST" class="custom-form contact-form" role="form">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="form-floating">
-                                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
-                                                
-                                                <label for="floatingInput">Name</label>
-                                            </div>
-                                        </div>
+                            <form action="https://formspree.io/f/mjgeovyg" method="POST" class="custom-form contact-form">
 
-                                        <div class="col-lg-6 col-md-6 col-12"> 
-                                            <div class="form-floating">
-                                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-                                                
-                                                <label for="floatingInput">Email address</label>
-                                            </div>
-                                        </div>
+    <input type="hidden" name="_subject" value="New Portfolio Message">
 
-                                        <div class="col-lg-3 col-md-6 col-6">
-                                            <div class="form-check form-check-inline">
-                                                <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
+    <div class="row">
 
-                                                <label class="form-check-label" for="inlineCheckbox1">
-                                                    
-                                                    <span class="form-check-label-text">My Journey</span>
-                                                </label>
-                                          </div>
-                                        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="form-floating">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
+                <label for="name">Name</label>
+            </div>
+        </div>
 
-                                        <div class="col-lg-3 col-md-6 col-6">
-                                            <div class="form-check form-check-inline">
-                                                <input name="branding" type="checkbox" class="form-check-input" id="inlineCheckbox2" value="1">
+        <div class="col-lg-6 col-md-6 col-12"> 
+            <div class="form-floating">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email address" required>
+                <label for="email">Email address</label>
+            </div>
+        </div>
 
-                                                <label class="form-check-label" for="inlineCheckbox2">
-                                        
-                                                    <span class="form-check-label-text">My Experience</span>
-                                                </label>
-                                            </div>
-                                        </div>
+        <div class="col-lg-3 col-md-6 col-6">
+            <input type="checkbox" name="interest[]" value="Journey"> My Journey
+        </div>
 
-                                        <div class="col-lg-3 col-md-6 col-6">
-                                            <div class="form-check form-check-inline">
-                                                <input name="ecommerce" type="checkbox" class="form-check-input" id="inlineCheckbox3" value="1">
+        <div class="col-lg-3 col-md-6 col-6">
+            <input type="checkbox" name="interest[]" value="Experience"> My Experience
+        </div>
 
-                                                <label class="form-check-label" for="inlineCheckbox3">
-                                                    
-                                                    <span class="form-check-label-text">My Projects</span>
-                                                </label>
-                                            </div>
-                                        </div>
+        <div class="col-lg-3 col-md-6 col-6">
+            <input type="checkbox" name="interest[]" value="Projects"> My Projects
+        </div>
 
-                                       
+        <div class="col-lg-12 col-12">
+            <div class="form-floating">
+                <textarea class="form-control" id="message" name="message" placeholder="Ask me a question" required></textarea>
+                <label for="message">Ask me a question.</label>
+            </div>
+        </div>
 
-                                        <div class="col-lg-12 col-12">
-                                            <div class="form-floating">
-                                                <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
-                                                
-                                                <label for="floatingTextarea">Ask me a question.</label>
-                                            </div>
-                                        </div>
+        <div class="col-lg-3 col-12 ms-auto">
+            <button type="submit" class="form-control">Send</button>
+        </div>
 
-                                        <div class="col-lg-3 col-12 ms-auto">
-                                            <button type="submit" class="form-control">Send</button>
-                                        </div>
-
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
+    </div>
+</form>
 
         </main>
 
